@@ -1,0 +1,89 @@
+* , ::after , ::before{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(116, 89, 57);
+}
+
+section{
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin: 30px 0;
+    color: #c59d5f;
+    font-family: 'Great Vibes', cursive;;
+    font-size: 2rem;
+}
+
+.question-center{
+    background-color: #fff;
+    display: inline;
+    width: 30rem;
+    /* display: flex; */
+    border-radius: 5px;
+    /* margin: 2.5rem 0; */
+    font-family: 'IM Fell Great Primer SC', serif;;
+}
+
+.question{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* text-align: center; */
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    /* background-color: saddlebrown; */
+}
+
+.line{
+    height: 2px;
+    width: 90%;
+    background-color: grey;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.question-text{
+    text-align: center;
+    /* display: none; */
+}
+
+
+
+.question-text{
+    /* background-color: chartreuse; */
+    /* display: none; */
+    
+}
+
+.show-text{
+    display: none;
+}
+
+button{
+    font-size: 1.5rem;
+    border: transparent;
+    background-color: transparent;
+    color: #c59d5f;
+}
+
+button:hover{
+    transition: all 0.2s linear;
+    transform: rotate(90deg);
+}
+
+.plus{
+    /* display: none; */
+}
+
+.minues{
+    display: none;
+}
